@@ -12,6 +12,7 @@ class DbContext {
   //                       ⬇️ this is how MongoDB names it in collections
   Cars = mongoose.model('car', CarSchema);
   Houses = mongoose.model('house', houseSchema);
+  Jobs = mongoose.model('job',)
 }
 
 export const dbContext = new DbContext()
